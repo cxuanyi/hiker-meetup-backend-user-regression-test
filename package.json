@@ -1,0 +1,32 @@
+{
+  "name": "hiker-meetup-backend-user-regression-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cxuanyi/hiker-meetup-backend-user-regression-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cxuanyi/hiker-meetup-backend-user-regression-test/issues"
+  },
+  "homepage": "https://github.com/cxuanyi/hiker-meetup-backend-user-regression-test#readme",
+  "dependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "testMatch": [
+      "**/*.steps.js"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.5",
+    "babel-jest": "^25.3.0",
+    "jest": "^25.3.0",
+    "jest-cucumber": "^2.0.11"
+  }
+}
