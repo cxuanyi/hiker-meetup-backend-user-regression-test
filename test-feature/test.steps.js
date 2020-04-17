@@ -11,7 +11,7 @@ defineFeature(feature, test => {
  
     when('I launch the rocket', () => {
         console.log("testing when....");
-        expect(true).toBe(true);
+        expect(true).toBe(true); 
     });
  
     then('the rocket should end up in space', () => {
