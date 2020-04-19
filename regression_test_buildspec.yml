@@ -18,6 +18,7 @@ phases:
     commands:
       - chmod +x ./codebuild/0-examine-test-result.sh
       - ./codebuild/0-examine-test-result.sh
+      - aws ec2 stop-instances --instance-id i-04ad49dbf6dd029b6
 reports:
   StateMachineUnitTestReports:
     files:
